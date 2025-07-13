@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "cibernarium_courses";
+$db = "cibernarium_cursos";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$db", $username, $password);
